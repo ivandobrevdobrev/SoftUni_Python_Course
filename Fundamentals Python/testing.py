@@ -37,6 +37,6 @@
 # number = 75
 # print(chr(number))
 
-number = 5
+number = 10
 res = number % 3
 print(res)

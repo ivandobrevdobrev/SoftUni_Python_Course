@@ -37,6 +37,59 @@
 # number = 75
 # print(chr(number))
 
-number = 10
-res = number % 3
-print(res)
+# number = 10
+# res = number % 3
+# print(res)
+
+
+# year = int(input())
+# year_is_special = False
+#
+# while not year_is_special:
+#       year += 1
+#       year_as_str = str(year)
+#       year_is_special = True
+#       for digit in year_as_str:
+#           if year_as_str.count(digit) > 1:
+#               year_is_special = False
+#               break
+# print(year)
+
+
+#Lists
+
+# data_list = [10, 3.14, 'hello',{"name": 'ivan', "age": 32}, True, False]
+
+# text = "a b c d"
+#
+# split_text = text.split(" ")
+# print(split_text)
+
+# my_list = ["a","b","c"]
+# print("-".join(my_list))
+
+# my_list = ["c","b","a"]
+# print(my_list.sort())
+
+#my_list = [2,3,4,1,5,1]
+#print(my_list.index(5,2))
+# popped_element = my_list.pop(3)
+# print(my_list)
+
+# my_list.extend([100,101])
+# print(my_list)
+
+my_list = [1,2,3,4,5,6,7,8]
+#print(my_list[::-2])
+
+# for number in my_list:
+#     print(number, end=" ")
+
+# search_element = 3
+#
+# for element in my_list:
+#     if element == search_element:
+#         print(f"found the number {my_list[element]}")
+#         break
+# else:
+#     print("not found")

@@ -68,10 +68,11 @@
 # my_list = ["a","b","c"]
 # print("-".join(my_list))
 
-# my_list = ["c","b","a"]
-# print(my_list.sort())
+#my_list = ["cucumber","bear","apple","Apple"]
+# my_list.sort()
+# print(my_list)
 
-#my_list = [2,3,4,1,5,1]
+my_list = [2,3,4,1,5,1]
 #print(my_list.index(5,2))
 # popped_element = my_list.pop(3)
 # print(my_list)
@@ -79,7 +80,7 @@
 # my_list.extend([100,101])
 # print(my_list)
 
-my_list = [1,2,3,4,5,6,7,8]
+#my_list = [1,2,3,4,5,6,7,8]
 #print(my_list[::-2])
 
 # for number in my_list:
@@ -93,3 +94,7 @@ my_list = [1,2,3,4,5,6,7,8]
 #         break
 # else:
 #     print("not found")
+
+#print( 2 in my_list) - -> True - проверява дали числото 2 е в листа
+
+#print(*my_list) принтира лист без запетаи и кавички - разкомплектова го

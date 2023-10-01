@@ -98,3 +98,6 @@ my_list = [2,3,4,1,5,1]
 #print( 2 in my_list) - -> True - проверява дали числото 2 е в листа
 
 #print(*my_list) принтира лист без запетаи и кавички - разкомплектова го
+
+for num in my_list:
+    print(num, end=", ")

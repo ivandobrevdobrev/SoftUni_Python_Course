@@ -101,3 +101,53 @@ my_list = [2,3,4,1,5,1]
 
 for num in my_list:
     print(num, end=", ")
+
+
+    #Zadacha 9
+items = input().split("|")
+budget = float(input())
+final_budget = 0
+ticket_price = 150
+new_prices = []
+profit = 0
+sell_price = 0
+
+
+for item in items:
+    current_item = item.split("->")
+
+    if current_item[0] == "Clothes":
+        if float(current_item[1]) <= 50.00:
+            if budget >= float(current_item[1]):
+                sell_price = float(current_item[1]) + (float(current_item[1]) * 0.40)
+                profit += sell_price - float(current_item[1])
+                new_prices.append(sell_price)
+                budget -= float(current_item[1])
+
+    elif current_item[0] == "Shoes":
+        if float(current_item[1]) <= 35.00:
+            if budget >= float(current_item[1]):
+                sell_price = float(current_item[1]) + (float(current_item[1]) * 0.40)
+                profit += sell_price - float(current_item[1])
+                new_prices.append(sell_price)
+                budget -= float(current_item[1])
+
+    elif current_item[0] == "Accessories":
+        if float(current_item[1]) <= 20.50:
+            if budget >= float(current_item[1]):
+                sell_price = float(current_item[1]) + (float(current_item[1]) * 0.40)
+                profit += sell_price - float(current_item[1])
+                new_prices.append(sell_price)
+                budget -= float(current_item[1])
+
+final_budget = budget + sum(new_prices)
+
+for new_price in new_prices:
+    print(f"{new_price:.2f}", end=" ")
+print()
+
+print(f"Profit: {profit:.2f}")
+if final_budget >= ticket_price:
+    print("Hello, France!")
+else:
+    print("Not enough money.")

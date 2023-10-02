@@ -17,3 +17,9 @@ for number in list_intergers:
 
 print(", ".join(new))
 
+#Solution 2
+
+# sorted_nums = sorted(list_intergers)   сортираме от малко- голямо  (1,2,3,4,5)
+# for i in range (n):
+#     list_intergers.remove(sorted_nums[i])  от листа( махаме числото на индекц 0 от сортирания лист( тоест 1) и така нататък
+# print(list_intergers)

@@ -62,3 +62,9 @@
 # add = lambda a,b: a+b
 # print(add(5,4))
 
+word = "ivan"
+new = list(word)
+
+for i in range(len(new)+1):
+    print(i)
+

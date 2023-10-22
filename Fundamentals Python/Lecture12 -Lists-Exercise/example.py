@@ -62,9 +62,13 @@
 # add = lambda a,b: a+b
 # print(add(5,4))
 
-word = "ivan"
-new = list(word)
+# word = "ivan"
+# new = list(word)
+#
+# for i in range(len(new)+1):
+#     print(i)
 
-for i in range(len(new)+1):
-    print(i)
-
+# list =['app','ben','car']
+#
+# a = list.index("car")
+# print(a)

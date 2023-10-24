@@ -187,7 +187,24 @@ my_list = [2, 3, 4, 8, 4, 1]
 #     my_list.remove(7)
 # else:print("no")
 
-for num in my_list:
-    if num < 5:
-        my_list.remove(num)
-print(*my_list)
+# for num in my_list:
+#     if num < 5:
+#         my_list.remove(num)
+# print(*my_list)
+
+# Последния елемент
+# last =my_list[-1]
+# print(last)
+
+# first = my_list[0]
+# my_list.pop(-1)
+# my_list.insert(-1,first)
+# print(my_list)
+
+# lesson = "list"
+# exersice = lesson + "-Exercise"
+# print(exersice)
+
+some_string = "Ivan"
+for index, character in enumerate(some_string,1):
+   print(f"index {index}, symbol is {character}")

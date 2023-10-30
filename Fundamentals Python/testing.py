@@ -208,3 +208,6 @@ my_list = [2, 3, 4, 8, 4, 1]
 some_string = "Ivan"
 for index, character in enumerate(some_string,1):
    print(f"index {index}, symbol is {character}")
+
+if some_string[0] == "I":
+   print("yes")

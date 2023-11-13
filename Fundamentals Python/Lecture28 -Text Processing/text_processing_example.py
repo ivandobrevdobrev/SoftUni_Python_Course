@@ -28,5 +28,11 @@
 # a = text.ljust(6,"*")
 # print(a)
 
-input_string = [string.strip() for string in input().split()]
-print(input_string)
+# input_string = [string.strip() for string in input().split()]
+# print(input_string)
+
+
+word = '15*a@ge'
+index = word.index("@")
+for symbol in word[index:]:
+    print(symbol)

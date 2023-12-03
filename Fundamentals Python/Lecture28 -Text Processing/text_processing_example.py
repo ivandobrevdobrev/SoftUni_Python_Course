@@ -20,7 +20,7 @@
 # new[0] = "B"
 # print(new)
 #
-# name = name.replace("M","B")
+# name = name.replace(name[1],"B",1) # да замести буквата на индекс 1(а) с В ,точно 1 път
 # print(name)
 
 
@@ -32,7 +32,7 @@
 # print(input_string)
 
 
-word = '15*a@ge'
-index = word.index("@")
-for symbol in word[index:]:
-    print(symbol)
+# word = '15*a@ge'
+# index = word.index("@")
+# for symbol in word[index:]:
+#     print(symbol)

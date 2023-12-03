@@ -205,9 +205,52 @@ my_list = [2, 3, 4, 8, 4, 1]
 # exersice = lesson + "-Exercise"
 # print(exersice)
 
-some_string = "Ivan"
-for index, character in enumerate(some_string,1):
-   print(f"index {index}, symbol is {character}")
+# some_string = "Ivan"
+# for index, character in enumerate(some_string,1):
+#    print(f"index {index}, symbol is {character}")
+#
+# if some_string[0] == "I":
+#    print("yes")
 
-if some_string[0] == "I":
-   print("yes")
+#добавяне на символ между другите
+
+#some_string = "Ivan"
+# index = 2
+# value = "G"
+# some_string = some_string[:index]+ value + some_string[index:]
+# print(some_string)
+
+#moving first symbols to end fo rthe string
+# some_string = some_string[index:] + some_string[:index]
+# print(some_string)
+
+
+# string = "Ivann is tenn"
+# print(string.replace("n","F"))
+
+# activation_key = 'absuyrghkdteruu'
+# start = 3
+# end = 8
+# uppers = activation_key[start:end]
+# print(uppers.upper())
+
+
+# word = 'Shy'
+# suma = sum([ord(symbol) for symbol in word])
+# print(suma)
+
+# Remove part of a string only one occurrence and add its reversed version at the end
+# string = "Ivan is in the van"
+# substring = "van"
+# new_substring = substring[::-1]
+# string = string.replace(substring,"",1) + new_substring
+# print(string)
+
+
+text = "computerIsfinepute"
+index = 3
+length = 4
+sub = text[index:index+length]
+print(sub)
+text = text.replace(sub,"",1)
+print(text)

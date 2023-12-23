@@ -247,10 +247,19 @@ my_list = [2, 3, 4, 8, 4, 1]
 # print(string)
 
 
-text = "computerIsfinepute"
-index = 3
-length = 4
-sub = text[index:index+length]
-print(sub)
-text = text.replace(sub,"",1)
-print(text)
+# text = "computerIsfinepute"
+# index = 3
+# length = 4
+# sub = text[index:index+length]
+# print(sub)
+# text = text.replace(sub,"",1)
+# print(text)
+
+# a = 5
+# b = a > 10
+# if not a:
+#     print(a)
+# if b:
+#     print(b)
+
+

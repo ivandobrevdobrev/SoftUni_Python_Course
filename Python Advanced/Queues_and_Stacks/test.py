@@ -17,7 +17,19 @@ from collections import deque
 # print(stack)
 # print(a)
 
-a = deque([3, 5, 8, 10])
-a.popleft()
-a.append(16)
-print(a)
+# a = deque([3, 5, 8, 10])
+# a.popleft()
+# a.append(16)
+# print(a)
+a = 20
+b = 30
+functions = {
+    "*": lambda a, b: a * b,
+    "/": lambda a, b: a / b,
+    "-": lambda a, b: a - b,
+    "+": lambda a, b: a + b,
+}
+symbol = "+"
+
+
+print(functions[symbol](a,b))

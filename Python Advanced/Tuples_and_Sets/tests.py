@@ -21,6 +21,9 @@
 # print(a ^ b) # Symmetric Difference -> {1, 2, 5, 6} елементите които са в а и не се срещат в b, и числата от b които ги няма в а
 # print(a.symmetric_difference(b))
 
-numbers = [1, 2, 3, 4, 4, 5, 6, 2, 1]
-unique_nums = {num for num in numbers}
-print(unique_nums)  #- само уникалните числа 
+
+
+# numbers = [1, 2, 3, 4, 4, 5, 6, 2, 1]
+# unique_nums = {num for num in numbers}
+# print(unique_nums)  #- само уникалните числа
+

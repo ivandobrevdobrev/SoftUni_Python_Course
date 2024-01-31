@@ -27,7 +27,7 @@ for command in commands:
 
     if not (0 <= r < n and 0 <= c < n): # check if indices we want to go are valid, if not skip and continue
         continue
-    miner_pos = [r,c]  # after we are sure ccordinatets are valis, we set his position
+    miner_pos = [r,c]  # after we are sure ccordinatets are valid, we set his position
 
     if matrix[r][c] == "c":
         coal_collected += 1

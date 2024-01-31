@@ -21,15 +21,22 @@ from collections import deque
 # a.popleft()
 # a.append(16)
 # print(a)
-a = 20
-b = 30
-functions = {
-    "*": lambda a, b: a * b,
-    "/": lambda a, b: a / b,
-    "-": lambda a, b: a - b,
-    "+": lambda a, b: a + b,
-}
-symbol = "+"
 
 
-print(functions[symbol](a,b))
+# a = 20
+# b = 30
+# functions = {
+#     "*": lambda a, b: a * b,
+#     "/": lambda a, b: a / b,
+#     "-": lambda a, b: a - b,
+#     "+": lambda a, b: a + b,
+# }
+# symbol = "+"
+#
+# print(functions[symbol](a,b))
+
+words = ["ivan", "dobrev","burgas"]
+words.insert(len(words) // 2, "26")
+print(*words)
+
+"burgas"

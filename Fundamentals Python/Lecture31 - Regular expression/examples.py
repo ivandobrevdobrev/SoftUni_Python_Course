@@ -34,6 +34,13 @@ import re
 # str = "The rain in Spain"
 # print(re.findall("spain",str,re.IGNORECASE))
 
-text = "somesite"
-new_text = re.sub('some','another',text)
-print(new_text)
+# text = "somesite"
+# new_text = re.sub('some','another',text)
+# print(new_text)
+
+email = "ivan9@gmail.com"
+pattern = r"[a-z0-9]+"
+match = re.findall(pattern,email.split("@")[0])
+print(match)
+a = email.split("@")[0]
+print(a)

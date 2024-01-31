@@ -17,7 +17,7 @@
 #         matrix[i].append(0)
 # print(matrix)
 
-#with comprehentions
+              #with comprehentions
 
 #matrix = [[0 for j in range(2)] for i in range(3)]
 
@@ -55,11 +55,11 @@
 
                    # Traversing
 
-matrix = [
-     [1, 2, 3],
-     [4, 5, 6],
-     [7, 8, 9]
-]
+# matrix = [
+#      [1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]
+# ]
 
 # using indices
 
@@ -78,10 +78,25 @@ matrix = [
 
                    # Changing Values
 
-for row in range(len(matrix)):
-    for column in range(len(matrix[row])):
-        matrix[row][column] += 1
-        print(matrix[row][column], end=" ")
+# for row in range(len(matrix)):
+#     for column in range(len(matrix[row])):
+#         matrix[row][column] += 1
+#         print(matrix[row][column], end=" ")
+#
+# matrix[1][2]= 100
+# print(matrix)
 
-matrix[1][2]= 100
-print(matrix)
+                  # creating Matrix
+
+# row, col = [int(el) for el in input().split(", ")] # razmera na matricata --> 4, 5
+#
+# matrix = []
+#
+# # for _ in range(row):
+# #     row_nums = [int(el) for el in input().split()]
+# #     matrix.append(row_nums)
+# # print(matrix)
+#
+#  # OR
+# matrix1 = [[int(el) for el in input().split()] for _ in range(row)]
+# print(matrix1)

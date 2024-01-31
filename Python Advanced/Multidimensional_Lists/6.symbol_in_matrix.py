@@ -12,7 +12,7 @@ for row_index in range(n):
         break
     for col_index in range(len(matrix[row_index])):
         if matrix[row_index][col_index] == searched_element:
-            print(f"({row_index}, {col_index})")
+            print(f"({row_index},{col_index})")
             is_found = True
             break
 if not is_found:
